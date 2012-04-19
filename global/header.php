@@ -35,7 +35,7 @@
 			</a>
 		</div>
 		<div class="git_banner">
-			<a href="toto">Fork me on GitHub</a>
+			<a href="<?php echo GITHUB_SOURCES; ?>">Fork me on GitHub</a>
 		</div>
 		<!-- <div class="content">
 		<div class="hmenu">

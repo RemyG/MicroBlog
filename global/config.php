@@ -27,6 +27,8 @@ define('SITE_OWNER', 'Rémy GARDETTE');
 define('SITE_OWNER_MAIL', 'contact@remy-gardette.fr');
 define('SITE_OWNER_PAGE', 'remy-gardette.fr/en');
 
+define('GITHUB_SOURCES', 'https://github.com/RemyG/MicroBlog');
+
 define("FR_DT_POST", "\l\e d/m/Y \à h:i");
 define("EN_DT_POST", "Y-m-d g:ia");
 define("EN_DT_POST_SHORT", "Y-m-d");

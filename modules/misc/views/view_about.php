@@ -9,7 +9,7 @@
 <h2>About this site</h2>
 <p>The content of this website is released under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.</p>
 
-<p>You can find the sources on GitHub, at <a href="https://github.com/RemyG/MicroBlog">https://github.com/RemyG/MicroBlog</a>.<br/>
+<p>You can find the sources on GitHub, at <a href="<?php echo GITHUB_SOURCES; ?>"><?php echo GITHUB_SOURCES; ?></a>.<br/>
 Feel free to fork the project and work on it, as it is distributed under the <a href="http://www.gnu.org/licenses/lgpl.html">GNU Lesser General Public License</a>.
 
 </div>
