@@ -1,0 +1,564 @@
+/* --- GENERAL --- */
+* {
+	font-family: Arial;
+}
+
+html, body, #centre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html, body {
+	background-color: #EEEEEE;
+	height: 100%;
+}
+
+#haut {
+	padding: 10px 30px;
+	/*background-color: #DDDDDD;*/
+	background: url(top_gradient.png) repeat-x;
+	text-align: left;
+	font-size: 24px;
+}
+
+#haut a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#haut a:hover {
+	color: #222222;
+}
+
+
+div.hmenu {
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #5C9CCC;
+	padding: 0px;
+	height: 30px;
+	margin-bottom: 0px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+
+#centre {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -70px;
+	padding: 0px;
+	font-size: 12px;
+	width: 1000px;
+}
+
+
+
+#main {	
+	margin: 0 0 0 250px;
+	padding: 0px;
+	padding-left: 10px;
+}
+
+
+div.push {
+	height: 70px;
+}
+
+div.bas {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	padding: 0;
+	border-top-style: dotted;
+	border-width: 1px;
+}
+
+input {
+	margin-bottom: 2px;
+}
+
+table,tr,td,th {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+/* --- FIN GENERAL --- */
+
+/* --- DIAPORAMA --- */
+#diaporama {
+	width: 100%;
+}
+
+div.navigation {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+label.navigation {
+	
+}
+
+.photo {
+	text-align: center;
+	padding: 20px;
+	/*height: 500px;*/
+}
+
+.img_photo {
+	vertical-align: middle;
+	padding: 10px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+/* --- FIN DIAPORAMA --- */ 
+
+/* --- ADMIN DIAPORAMA --- */
+div.upload_picture {
+	border: 1px solid red;
+	margin: 10px;
+	position: relative;
+}
+
+label.upload_picture {
+	width: 200px;
+	text-align: left;
+	margin: 10px;
+}
+
+div.upload_picture_row {
+	padding: 5px;
+	margin: 10px 0px;
+	align: middle;
+}
+
+input.upload_picture,select.upload_picture {
+	position: absolute;
+	left: 200px;
+	width: 320px;
+}
+
+div.upload_picture_title {
+	background-color: #DDDDDD;
+	padding: 10px 10px 10px 16%;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+div.upload_picture_success {
+	background-color: green;
+	border: 1px solid green;
+}
+
+div.upload_picture_error {
+	background-color: red;
+	border: 1px solid red;
+}
+
+/* --- FIN ADMIN DIAPORAMA --- */ 
+
+/* --- NOUVEAUTES --- */
+
+div.nouveautes {
+	margin: 0 15%;
+}
+
+div.post {
+	/*background-color: #e1edf6;*/
+	background-color: #fff;
+	margin: 0px;
+	padding: 10px 0 25px;
+	
+}
+
+div.post_list_title {
+	color: #32556f;
+	padding: 5px 10px 0px;
+	background-color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div.post_list_title a {
+	color: #32556f;
+	text-decoration: none;
+}
+
+div.post_list_title a:hover {
+	
+}
+
+div.post_title {
+	background-color: #69a3cf;
+	background-color: #fff;
+	padding: 5px 10px 5px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+div.post_dt {
+	padding: 5px 10px 5px;
+	background-color: #84b2d5;
+	background-color: #fff;
+	font-size: 10px;
+}
+
+div.post_content {
+	background-color: #e1edf6;
+	background-color: #fff;
+	padding: 10px;
+}
+
+div.post_comments {
+	background-color: #b9d0e2;
+	background-color: #fff;
+	padding: 10px;
+}
+
+div.post_comment {
+	background-color: #b9d0e2;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+div.posts_hr {
+	border-bottom: 1px dashed grey;
+}
+
+div.pagination {
+	background-color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+span.pagination_element {
+	padding: 0px 5px;
+}
+
+/* --- FIN NOUVEAUTES --- */ /* --- ADMIN NOUVEAUTES --- */
+div.titre_creer_post {
+	background-color: #DDDDDD;
+	padding: 10px 10px 10px 16%;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+label.creer_post {
+	background-color: #DDDDDD;
+	float: left;
+	width: 250px;
+	text-align: left;
+}
+
+input.creer_post {
+	background-color: #CCCCCC;
+	margin-bottom: 10px;
+	font-size: 16px;
+	width: 75%;
+}
+
+div.textarea_creer_post {
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+textarea.creer_post {
+	background: #FFFFFF;
+	width: 99%;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+div.error {
+	color: red;
+	border: solid 1px;
+	border-color: red;
+	text-align: center;
+	align: center;
+	width: 75%;
+	margin: 15px auto;
+}
+
+/* --- FIN ADMIN NOUVEAUTES --- */ /* --- PAGES --- */
+div.page {
+	background-color: #fff;
+	margin: 0 10%;
+	padding: 10px 0 25px;
+}
+
+div.page_title {
+	color: #32556f;
+	padding: 5px 10px 0px;
+	background-color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+div.page_dt {
+	padding: 5px 10px 5px;
+	background-color: #84b2d5;
+	background-color: #fff;
+	font-size: 10px;
+}
+
+div.page_content {
+	background-color: #e1edf6;
+	background-color: #fff;
+	padding: 10px;
+}
+
+
+/* --- FIN PAGES --- */ 
+
+/* remove the list style */
+
+
+#nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/* make the LI display inline */
+	/* it's position relative so that position absolute */
+	/* can be used in submenu */
+#nav li {
+	float: left;
+	display: block;
+	position: relative;
+	z-index: 500;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background: #5C9CCC;
+}
+
+/* this is the parent menu */
+#nav li a {
+	display: block;
+	padding: 0 30px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 700;
+	height: 40;
+	text-decoration: none;
+	text-align: center;
+	color: #000;
+}
+
+#nav li a:hover {
+	color: #fff;
+	background-color: #87b6d9;
+}
+
+/* you can make a different style for default selected value */
+#nav a.selected {
+	color: #f00;
+}
+
+/* submenu, it's hidden by default */
+#nav ul {
+	width: 100%; 
+	position: absolute;
+	left: 0;
+	display: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #c4dbec;
+	border-top: 1px solid black; 
+}
+
+#nav ul li { /*width:150px;*/
+	width: 100%; 
+	float : left;
+	border-top: 1px solid #fff;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: #d3e4f1;
+	float: left;
+}
+
+/* display block will make the link fill the whole area of LI */
+#nav ul a {
+	margin: 0px;
+	padding: 0 10px;
+	display: block;
+	color: #000;
+}
+
+#nav ul a:hover {
+	color: #fff;
+	background-color: #87b6d9;
+}
+
+div.highlight_dialog {
+	border: 1px solid #2E6E9E;
+	margin: 10px;
+	padding: 20px 50px;
+	width: 200px;
+	display: none;
+	z-index: 2000;
+	background-color: #FFFFFF;
+}
+
+div.display_table_no_border table, tr, th, td {
+	border: 0px;
+	text-align: left;
+	padding-right: 50px;
+	vertical-align: top;
+}
+
+div.highlight_photo {
+	}
+	
+	
+div.tumblr_date {
+	width:500px;
+	text-align: center;
+	margin: 20px auto -10px;
+	padding: 0px;
+	font-weight: bold;
+}
+	
+div.tumblr_post {
+	width:540px;
+	margin: 20px auto;
+	padding: 0;
+}
+
+div.tumblr_top {
+	height: 18px;
+	width: 540px;
+	background: url(post-top.png) no-repeat;
+}
+
+div.tumblr_content {
+	width: 500px;
+	padding: 2px 20px;
+	background: url(post-back.png) repeat-y;
+}
+
+div.tumblr_bottom {
+	height: 60px;
+	width: 520px;
+	background: url(post-bottom.png) no-repeat;
+	margin: 0;
+	padding: 20px 20px 0 0;
+	text-align: right;
+}
+
+div.tumblr_photo {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	width: 500px;
+}
+
+div.tumblr_quote_short {
+	font-size: 20px;
+	font-weight: bold;
+	color: #606060;
+	margin-bottom: 15px;
+}
+
+a.tumblr_link {
+	padding: 5px; 
+	border: 1px solid grey; 
+	background-color: grey; 
+	color: white; 
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+a.tumblr_link:hover {
+	background-color: black;
+}
+
+a.tumblr_link_to_post {
+	padding: 2px 5px; 
+	border: 1px solid grey; 
+	background-color: grey; 
+	color: white; 
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+a.tumblr_link_to_post:hover {
+	background-color: #606060;
+}
+
+a.tumblr_pagination {
+	color: grey;
+	padding: 5px 10px;
+	border: 1px solid grey;
+	float: right;
+	text-decoration: none;
+}
+
+a.tumblr_pagination:hover {
+	color: black;
+	border: 1px solid black;
+}
+
+#left_col {
+	margin: 0 -750px 0 0;
+	padding: 10px 10px;
+	float: left;
+	width: 250px;
+}
+
+div.left_col_social {
+	padding: 10px;
+	background: #87b6d9;
+}
+
+div.left_col_row {
+	margin: 0px auto 10px;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+div.left_col_row table {
+	margin: 0px auto;
+	border: 1px dashed grey;
+}
+
+div.left_col_row td {
+	padding: 5px 8px;
+	border: 1px dashed grey;
+	text-align: left;
+	vertical-align: middle;
+	height: 35px;
+}
+
+div.left_col_row a {
+	color: black;
+	text-decoration: none;
+}
+
+div.left_col_row a:hover {
+	color: grey;
+}
+
+
+
+
+/* REFACTORING */
+
+div.central_w_background {
+	background-color: #fff;
+	margin: 10px;
+	padding: 10px 0 25px;
+}

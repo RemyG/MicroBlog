@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+div.post {
+	border: 1px solid black;
+	position: relative;
+	margin-bottom: 25px;
+}
+
+div.post_date {
+	position: absolute;
+	right: 549px;
+	top: 10px;
+}
+
+div.post_date a {
+	display: block;
+	background: grey;
+	text-align: right;
+	padding: 5px 10px;
+	font-size: 0.9em;
+	white-space: nowrap;
+	text-decoration: none;
+	color: black;
+}
+
+div.post_date a:hover {
+	color: white;
+}
+
+div.post_title {
+	
+}
+
+div.post_title a {
+	display: block;
+	font-size: 1.2em;
+	background:#ffffff url('images/stripes_grey.png') repeat right top;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+div.post_title a:hover {
+	color: black;
+	background:#ffffff url('images/stripes_white.png') repeat right top;
+}
+
+div.post_author {
+	text-align: right;
+	font-size: 0.8em;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+div.post_content {
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+div.post_content_text {
+	padding: 10px 10px;
+	margin: 0;
+	background: #f0f0f0;
+}
+
+div.post_date_update {
+	font-size: 0.8em;
+	margin: 10px;
+	text-align: right;
+}
+
+div.post_actions {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+span.post_action {
+	padding-right: 20px;
+	font-size: 0.9em;
+}
+
+div.post_comments {
+	margin-bottom: 15px;
+	padding: 10px;
+	padding-top: 0px;
+}
+
+div.post_comments_title {
+	margin-bottom: 5px;
+	/*font-weight: bold;*/
+}
+
+div.post_comment {
+	border: 1px solid grey;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+div.post_comment_content {
+	margin-bottom: 5px;
+}
+
+div.post_comment_infos {
+	font-size: 0.8em;
+}

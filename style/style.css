@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+}
+
+div.main {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#header {
+	padding: 20px 0;
+	position: relative;
+}
+
+div.git_banner {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+div.git_banner a {
+	display: block;
+	padding: 5px 10px;
+	background: #0090FF;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0 5px 10px rgba(0,0,0,.5);
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	
+}
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+div.content {
+	float: left;
+	width: 550px;
+	text-align: justify;
+}
+
+#rightmenu {
+	float: left;
+	width: 230px;
+	margin-left: 20px;
+}
+
+div.title {
+	/*text-align: center;*/
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+div.title a {
+	text-decoration: none;
+	color: black;
+}
+
+div.title a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+div.hmenu {
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+div.hmenu ul {
+	list-style: none;
+	margin: 0 auto;
+	clear: left;
+	padding: 0;
+	text-align: center;
+}
+
+div.hmenu li {
+	display: inline-block;
+	list-style-type:none;
+}
+
+
+div.hmenu li a {
+	display: block;
+	color: grey;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+div.hmenu li a:hover {
+	background: white;
+	color: black;
+}
+
+
+div.rightmenu_group {
+	padding: 10px;
+	border: 1px solid lightgrey;
+	font-size: 0.8em;
+	margin-top: -1px;
+}
+
+div.rightmenu_group input {
+	width: 100%;
+}
+
+div.rightmenu_group td {
+	padding-right: 10px;
+}
+
+div.highlight_dialog {
+	border: 1px solid #2E6E9E;
+	margin: 10px auto;
+	padding: 20px 50px;
+	width: 200px;
+	display: none;
+	z-index: 2000;
+	background-color: #FFFFFF;
+}
+
+div.pagination {
+	text-align: center;
+}
+
+span.pagination_element {
+	padding: 0 5px;
+}
+
+div.content_title {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+div.content_form {
+	
+}
+
+div.content input {
+	width: 100%;
+}
+
+div.content input[type=submit] {
+	width: auto;
+}
+
+div.content input[type=button] {
+	padding: 3px 15px;
+	width: auto;
+}
+
+div.content textarea {
+	width: 100%;
+}
+
+h2 {
+display: block;
+font-size: 1.2em;
+-webkit-margin-before: 1.5em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
